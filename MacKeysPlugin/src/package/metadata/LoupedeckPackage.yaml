@@ -1,0 +1,60 @@
+# ==================================================================================================
+# GENERAL SETTINGS
+# ==================================================================================================
+
+# Package type. Must be plugin4 for plugins.
+type: plugin4
+
+# Name that identifies the plugin.
+name: MacKeys
+
+# Plugin name that is shown to the user.
+displayName: Mac Keys
+
+# Short description of the plugin.
+description: Mac keys for the MX Creative Keypad - lock the screen with one press, and see and extend how long Amphetamine keeps your Mac awake. Unofficial, not affiliated with Apple or the makers of Amphetamine.
+
+# Name of the plugin library file.
+pluginFileName: MacKeysPlugin.dll
+
+# Plugin version.
+version: 1.0
+
+# Author of the plugin. The author can be a company or an individual developer.
+author: Dominik Pfaffenbauer
+
+# Copyright information.
+copyright: Copyright © 2026 Dominik Pfaffenbauer
+
+
+# ==================================================================================================
+# PLUGIN PROPERTIES
+# ==================================================================================================
+
+# Location of plugin files on macOS (relative to the plugin base directory).
+pluginFolderMac: bin
+
+# List of plugin capabilities.
+pluginCapabilities:
+    # Uncomment the following line if this plugin is an application plugin.
+    #- HasApplication
+
+# Minimum Logi Plugin Service version supported by the plugin.
+minimumLoupedeckVersion: 6.4
+
+
+# ==================================================================================================
+# LOUPEDECK MARKETPLACE SETTINGS
+# ==================================================================================================
+
+# Name of the license that the plugin is licensed under.
+license: MIT
+
+# URL of the plugin license.
+licenseUrl: https://github.com/dpfaffenbauer/mac-mx-keyboard/blob/main/LICENSE
+
+# URL of the support page where the users can send improvement suggestions and report bugs.
+supportPageUrl: https://github.com/dpfaffenbauer/mac-mx-keyboard/issues
+
+# URL of the plugin homepage. The URL is shown in Loupedeck Marketplace.
+homePageUrl: https://github.com/dpfaffenbauer/mac-mx-keyboard

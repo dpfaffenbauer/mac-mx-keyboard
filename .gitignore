@@ -1,0 +1,6 @@
+.DS_Store
+dist/
+*.lplug4
+MacKeysPlugin/bin/
+MacKeysPlugin/obj/
+MacKeysPlugin/src/obj/
